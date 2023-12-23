@@ -1,14 +1,16 @@
 const textInput = document.querySelector("#textArea"); 
 const widthInput = document.querySelector("#widthArea");
 const heightInput = document.querySelector("#heightArea");
+
 function codeGenerate(){
+
     const valueInputText = textInput.value; 
     const valueWidthInput = widthInput.value;
     const valueHeightInput= heightInput.value;
 
-    valueInputText = "";
-    valueWidthInput = "";
-    valueHeightInput = "";
+    valueInputText.value = "";
+    valueWidthInput.value = "";
+    valueHeightInput.value = "";
 
 
 
