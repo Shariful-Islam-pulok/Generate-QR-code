@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment QR code</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="inputField">
+            <input id="textArea" type="text" placeholder="Enter Text">
+            <input id="widthArea" type="number" placeholder="Enter width">
+            <input id="heightArea" type="number" placeholder="Enter Height">
+        </div>
+
+
+
+        <div class="">
+            <button onclick="codeGenerate()" type="submit">
+                Generate QR Code
+            </button>
+        </div>
+
+        <div> 
+            <img id="getImage" src="" alt=""> 
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
